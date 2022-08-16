@@ -21,8 +21,9 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-around  ;
+  justify-content: space-around;
   align-items: center;
+
 }
 
 .container1-text {
@@ -101,15 +102,34 @@ font-size: 12px;
   background-color: #E5E7EB;
 }
 
-.footer {
+.container3 {
   display: flex;
+  background-color: #E5E7EB;
   justify-content: center;
-  align-items: center;
+}
+
+.quote-box {
+  display: flex;
+  margin: 50px;
+  width: 800px;
+  flex-direction: column;
+}
+
+.quote {
+font-size: 36px;
+font-style: italic;
+font-weight: lighter;
+color: #1f2937;
+}
+
+.thor {
+text-align: right;
+font-size: 24px;
+font-weight: 900;
 }
 
 .container4 {
  display: flex;
- 
  justify-content: space-around;
  padding: 100px;
 }
@@ -120,10 +140,19 @@ font-size: 12px;
   justify-content: space-around;
   width: 1000px;
   padding: 50px;
+  border-radius: 10px;
 
 }
 
 .container4-sub {
   background-color: #3882f6;
   color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: grow;
+  height: 100px;
 }
